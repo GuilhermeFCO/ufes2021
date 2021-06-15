@@ -1,0 +1,624 @@
+<1º Slide>
+
+Olá a
+todos,
+meu nome
+é Guilherme
+Fernandes
+e este vídeo
+está sendo
+produzido
+para
+apresentar
+o projeto
+Análise
+Descritiva
+e Comparativa
+da Covid-19,
+na oitava
+semana da
+matematica
+da universidade
+federal de
+viçosa campus 
+florestal.
+<2º Slide><setaDireita>
+Os slides
+estão
+disponiveis
+nesse link
+ou neste 
+qr code, 
+também 
+está 
+aparecendo
+o link no
+canto
+superior
+direito
+nesse momento
+Também
+estarei
+deixando
+na descrição
+do vídeo.
+<3º Slide><setaDireita>
+O orientador
+desse projeto
+é o professor
+Doutor 
+Fernando de 
+Souza Bastos.
+Este projeto
+foi aprovado 
+no edital 
+PIBIC/CNPq 
+e já fica 
+os meus 
+agradecimentos
+a CNPq e a 
+UFV pela 
+oportunidade.
+<4º Slide><setaDireita>
+Em 11 de 
+março de 2020, 
+a Organização 
+Mundial da 
+Saúde (OMS) 
+declarou uma
+pandemia por 
+causa da 
+doença Covid-19, 
+está, causada 
+pelo vírus 
+SARS-CoV-2,
+que apresenta 
+um quadro 
+clinico que 
+varia de 
+infecçoes 
+assintomaticas 
+a quadros 
+respiratorios 
+graves.
+<5º Slide><setaDireita>
+Os sintomas 
+de quem está 
+infectado 
+pela doença 
+são:
+Febre
+Tosse seca
+Cansaço
+Outros sintomas
+que são 
+menos comuns
+são:
+Perda de 
+paladar 
+ou olfato
+Dor de cabeça
+Dor de garganta
+Existem outros
+sintomas que 
+podem ser 
+encontrados 
+acessando a fonte.
+Se você
+apresentar
+alguns dos
+sintomas é 
+recomendável
+se isolar,
+e em casos
+de presença
+de febre, 
+tosse e 
+dificuldade
+de respirar,
+é indicado
+procurar
+atendimento
+médico 
+imediatamente.
+Primeiramente
+ligue por 
+telefone e 
+se puder 
+siga as 
+instruções
+da autoridade
+de saúde local.
+<6º Slide><setaDireita>
+A transmissão
+ocorre pelo
+ar, ou por
+contato 
+pessoal,
+através de
+secreções
+contaminadas
+Devido ao
+modo de
+transmissão
+vários lugares
+do mundo 
+decretaram 
+isolamento 
+social visto 
+que até o 
+momento não 
+há medicamento
+para o 
+combate e 
+enfrentamento 
+da doença.
+<7º Slide><setaDireita>
+Para podermos
+estimar os 
+danos que 
+a doença
+está 
+causando 
+em diversas 
+áreas no 
+Brasil e 
+no mundo 
+precisamos 
+ter um local 
+para armazenar 
+os dados 
+e assim 
+estuda-los
+Hoje o 
+Governo 
+Federal 
+armazena 
+estes dados 
+no site 
+openDataSUS, 
+lá você pode 
+encontrar 
+arquivos com 
+dados separados 
+por estado.
+<setaDireita>
+Outro local 
+que fornece 
+dados da COVID 19
+no Breasil 
+é o site 
+Brasil.io, 
+este mantido 
+através do 
+trabalho de 
+forma 
+voluntária 
+de dezenas
+de pessoas 
+que diariamente 
+compilam os 
+boletins 
+epidemiológicos 
+das secretarias 
+de saúde do 
+Brasil de 
+forma manual, 
+este, fornece
+dados das 
+cidades e dos 
+estados do 
+Brasil.
+<setaDireita>
+Quando 
+procuramos
+um banco 
+de dados 
+que contém 
+dados do mundo todo,
+encontramos 
+o da 
+universidade 
+jhon hopkins 
+situada na 
+cidade de
+Baltimore, 
+Estados Unidos.
+<8º Slide><setaDireita>
+Uma das melhores
+formas de 
+apresentar 
+dados de 
+visualmente
+é através 
+de dashboards, 
+trouxe alguns 
+exemplos
+de dashboards
+já existentes,
+o primeiro
+exemplo
+é o do 
+governo 
+federal, 
+este contendo 
+gráficos, 
+mapas
+e tabelas 
+com dados do 
+Brasil.
+<seta para direita>
+Outro exemplo 
+com dados do 
+Brasil é o 
+aplicativo 
+CoronaBR, 
+este
+criado pelo 
+meu orientador, 
+Fernando, 
+que trazia 
+como diferencial
+a estimação 
+de pessoas
+recuperadas e 
+também um 
+modelo preditivo. 
+Hoje para 
+acessa-lo 
+você pode 
+baixar o 
+repositório 
+do github 
+e rodar
+ele na sua 
+própria máquina.
+<setaDireita>
+Agora quando 
+se trata de 
+dados do 
+mundo existe 
+o dashboard 
+da OMS,
+nele você 
+encontra 
+comparações 
+entre paises, 
+número de testes,
+tamanho 
+populacional e 
+diversas 
+outras 
+informações.
+<setaDireita>
+A universidade 
+Jhon Hopkins 
+também possui 
+um dashboard
+criado 
+utilizando o
+seu próprio 
+banco de dados.
+<9º Slide><setaDireita>
+O objetivo
+principal
+do projeto
+é estudar os
+dados da 
+Covid19,
+e de outras
+doenças,
+para fazer 
+comparações 
+e daí construir
+relatorios 
+dinamicos
+e interativos 
+sobre a 
+covid19
+utilizando
+a linguagem
+de programação
+R, e pacotes
+necessários.
+Dessa forma
+gerando 
+informaçoes 
+confiaveis, 
+objetivas e 
+de facil
+acesso para 
+a populaçao, 
+para a 
+comunidade 
+cientifica e 
+para
+gestores publicos
+sobre o 
+desenvolvimento 
+diario da 
+pandemia.
+<10º Slide><setaDireita>
+Trouxe aqui
+alguns gráficos
+construidos 
+atraves do 
+software R
+utilizando
+pacotes
+data.table
+shiny
+tidyverse
+e outros
+mostrando o 
+número de 
+casos 
+confirmados 
+acumulados 
+no estado 
+de MG.
+Nele é 
+possível 
+perceber como 
+a curva se 
+parece como 
+uma função 
+exponencial 
+e como 
+assusta o número 
+de casos ja 
+confirmados 
+que chega
+proximo de 
+4 milhões.
+<setaDireita>
+Este outro 
+gráfico 
+informa 
+o número de 
+óbitos ao 
+decorrer do 
+tempo,
+e infelizmente 
+em MG já são 
+quase 10 mil 
+mortos.
+<setaDireita>
+Outra 
+visualização 
+que podemos 
+ter é um 
+gráfico de 
+barras 
+comparando
+os 10 estados
+com maiores 
+números de 
+casos confimados, 
+como pode se
+perceber o 
+estado de 
+são paulo se 
+destaca em 
+relação aos 
+outros estados,
+e daí 
+poderiamos 
+pensar em fazer 
+um estudo 
+para responder 
+algumas 
+perguntas 
+como, 
+será que 
+os habitantes 
+de São Paulo 
+estão 
+respeitando 
+o isolamento 
+social?
+Qual o 
+motivo para 
+tal 
+diferença?
+Este tipo
+de pergunta
+poderá
+ser 
+solucionada
+através dos
+relatórios
+que iremos
+construir
+<setaDireita>
+Esta é mais
+uma das formas
+de visualização
+atraves de um
+mapa, podemos
+também
+comparar
+o número de
+casos
+confirmados
+através do
+tom da
+coloração,
+se é um
+tom mais
+escuro
+e porque
+possui 
+mais casos
+do que
+um tom mais
+claro de
+coloração.
+<11º Slide><setaDireita>
+Todos estes
+gráficos 
+interativos 
+podem ser 
+acessados 
+através de
+um site
+que hospeda
+um
+aplicativo
+shiny.
+Este
+foi criado
+como critério
+de estudo,
+ou seja, 
+não é o 
+modelo final
+que será 
+entregue na
+finalização 
+do projeto.
+O link 
+para 
+acessa-lo
+está no 
+slide.
+<12º Slide><setaDireita>
+Outro 
+resultado 
+que já 
+obtivemos, 
+estudando a 
+linguagem 
+latéx
+em conjunto 
+ao software
+R, foi 
+um modelo
+para a 
+escrita
+do TCC 
+da UFV.
+Com este
+modelo
+você só
+precisara
+digitar
+como se
+estivesse
+digitando
+em um bloco
+de notas
+e no final
+ele produzira
+um site
+e um pdf
+para 
+impressão
+Ao final
+do projeto
+ele será
+oficialmente
+disponibilizado 
+em conjuto 
+com um manual
+para auxiliar 
+desde a instalação 
+dos softwares,
+<seta para direita>
+a utilização, 
+até o momento 
+da postagem do 
+site de forma
+simples e 
+gratuita
+e a geração 
+do pdf.
+<13º Slide><setaDireita>
+Bom este foi
+uma breve
+apresentação do
+projeto, os
+objetivos
+e o que ja
+conseguimos
+produzir com
+pouco tempo.
+Primeiramente 
+queria 
+agradecer 
+ao meu 
+orientador
+Fernando 
+de Souza 
+Bastos 
+por sempre 
+estar me 
+ajudando em 
+qualquer
+que seja o 
+assunto ou 
+dificuldade, 
+a aprender 
+cada vez 
+mais sobre 
+o R e sua 
+incrivel
+comunidade, 
+e pela 
+consideração 
+que tem 
+comigo e 
+todos os
+seus alunos.
+Queria agradecer 
+os meus 
+amigos e 
+meus famíliares 
+que sempre 
+me apoiam
+e estão ao 
+meu lado a 
+qualquer 
+momento que 
+eu preciso 
+e me dão 
+forças
+para continuar 
+em frente.
+Também queria 
+agradecer a 
+oportunidade 
+e o espaço 
+que a SEMAT 
+deu para 
+apresentação do 
+projeto, e a 
+todos que 
+estão 
+assistindo.
+<14º Slide><setaDireita>
+Deixo aqui 
+meu email, 
+e minhas 
+redes sociais 
+caso alguem 
+queira 
+entrar em 
+contato para 
+discutir algum 
+assunto ou 
+alguma dúvida.
+<15º Slide><setaDireita>
+Se possivel
+deixa o like
+e compartilhe
+o video
+para mais 
+pessoas
+conhecerem
+o projeto.
+Muito 
+Obrigado a 
+todos que 
+asistiram 
+até aqui!

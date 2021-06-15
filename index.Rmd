@@ -1,0 +1,241 @@
+---
+title: "Análises Estatísticas do Índice de Desenvolvimento Humano, Mortalidade e Incidência da Covid-19 no Brasil"
+subtitle: ""
+author: "Guilherme Fernandes Castro de Oliveira"
+institute: "Universidade Federal de Viçosa - Campus UFV Florestal"
+output:
+  xaringan::moon_reader:
+    includes:
+      in_header: "favicon.html"
+    css: ["./style/semat.css", "./style/default-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r, include=FALSE}
+library(tidyverse)
+library(knitr)
+library(emo)
+library(data.table)
+```
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+
+class: center, middle
+
+```{r qrcode, echo=FALSE, out.width='30%'}
+knitr::include_graphics('img/ufes21.png')
+```
+</div>
+.center[
+[guilhermefco.github.io/ufes2021](guilhermefco.github.io/ufes2021)
+]
+
+---
+### Orientação
+
+.center[
+Professor Doutor Fernando de Souza Bastos
+]
+.center[
+```{r fernando, echo=FALSE, out.width='25%'}
+knitr::include_graphics('img/fernando.gif')
+```
+]
+.center[
+<a href="https://www.linkedin.com/in/fsbmat/"><i class="fab fa-linkedin" style="font-size:40px;"></i></a>
+<a href="https://github.com/fsbmat-ufv"><i class="fab fa-github" style="font-size:40px;"></i></a>
+<a href="https://fsbmat-ufv.github.io/"><i class="fas fa-globe" style="font-size:40px;"></i></a>
+]
+
+### Apoio
+
+.center[
+```{r cnpq, echo=FALSE, out.width='50%'}
+knitr::include_graphics('img/pibic_cnpq.jpg')
+```
+]
+
+---
+# Covid-19 (SARS-CoV-2)
+
+.center[
+```{r sarsCoV2, echo=FALSE, out.width='60%'}
+knitr::include_graphics('img/sarsCoV2.jpg')
+```
+]
+
+**Fonte:** [Journal of Medical Virology](https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25685)
+
+---
+# Covid-19 (SARS-CoV-2)
+
+<h3>Sintomas</h3>
+
+- Febre
+  
+- Tosse seca
+  
+- Cansaço
+
+- Dificuldade de respirar
+  
+- Outros sintomas menos comuns:
+  
+  * Perda de paladar ou olfato
+    
+  * Dor de cabeça
+    
+  * Dor de garganta
+
+**Fonte:** [OMS](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public)
+
+---
+# Covid-19 (SARS-CoV-2)
+
+<h3>Transmissão</h3>
+
+- .justify[
+A transmissão ocorre pelo ar, ou por contato pessoal, através de secreções contaminadas.
+]
+ 
+- .justify[
+Devido ao modo de transmissão vários lugares do mundo decretaram isolamento social visto que até o momento não há medicamento para o combate e enfrentamento da doença.
+]
+  
+**Fonte:** [OMS](https://www.who.int/news-room/q-a-detail/coronavirus-disease-covid-19-how-is-it-transmitted#:~:text=COVID%2D19%20is%20caused%20by,speak%2C%20sing%20or%20breathe%20heavily.)
+
+---
+# Banco de Dados
+
+.panelset[
+  .panel[.panel-name[Brasil.io]
+.center[
+```{r Brasil.io, echo=FALSE, out.width='75%'}
+knitr::include_graphics('./img/brasil.io.png')
+```
+
+]
+
+**Fonte:** [Brasil.io](https://brasil.io/home/)
+  ]
+  
+  .panel[.panel-name[IDH]
+.center[
+``` {r idh, echo=FALSE, out.width='70%'}
+knitr::include_graphics('./img/idh.png')
+```
+
+]
+
+**Fonte:** [Atlas Brasil](http://www.atlasbrasil.org.br/)
+  ]
+]
+
+---
+# Gráficos
+
+.panelset[
+  .panel[.panel-name[SP]
+.center[
+```{r, echo=FALSE, out.width='75%'}
+knitr::include_graphics('img/SP.png')
+```
+]
+  ]
+  .panel[.panel-name[RJ]
+  .center[
+```{r, echo=FALSE, out.width='75%'}
+knitr::include_graphics('img/RJ.png')
+```
+]
+  ]
+  .panel[.panel-name[MG]
+.center[
+```{r, echo=FALSE, out.width='75%'}
+knitr::include_graphics('img/MG.png')
+```
+]
+  ]
+  .panel[.panel-name[Mapa]
+.center[
+```{r, echo=FALSE, out.width='75%'}
+knitr::include_graphics('img/mapIDH.png')
+```
+]
+  ]
+]
+
+---
+class: middle, center, inverse
+
+# Objetivos
+
+---
+# Shiny
+
+.center[
+```{r, echo=FALSE, out.width='75%'}
+knitr::include_graphics('img/shiny.png')
+```
+]
+
+---
+# Modelo TCC
+
+.panelset[
+  .panel[.panel-name[Site]
+.center[
+``` {r Site2, echo=FALSE, out.width='75%'}
+knitr::include_graphics('img/SiteTCC.png')
+```
+]
+  ]
+  .panel[.panel-name[PDF]
+.center[
+``` {r pdf, echo=FALSE, out.width='70%'}
+knitr::include_graphics('img/pdf.jpg')
+```
+]
+  ]
+]
+
+Será lançado em breve. `r emo::ji("smile")`
+
+---
+class: center, middle
+
+# Agradecimentos
+
+---
+# Redes Sociais
+
+.center[
+Guilherme Fernandes Castro de Oliveira
+]
+.center[
+``` {r eu, echo=FALSE, out.width='35%'}
+knitr::include_graphics('img/eu.jpeg')
+```
+]
+.center[
+<a href="https://www.linkedin.com/in/guifernandesco/"><i class="fab fa-linkedin" style="font-size:40px;"></i></a>
+<a href="https://github.com/GuilhermeFCO"><i class="fab fa-github" style="font-size:40px;"></i></a>
+<a href="https://www.facebook.com/guifernandesco"><i class="fab fa-facebook" style="font-size:40px;"></i></a>
+<a href="https://www.instagram.com/guifernandesco/"><i class="fab fa-instagram" style="font-size:40px;"></i></a>
+<a href="https://twitter.com/guifernandesco"><i class="fab fa-twitter" style="font-size:40px;"></i></a>
+<a href="mailto:guilherme.f.castro@ufv.br"><i class="far fa-envelope" style="font-size:40px;"></i></i></a>
+]
+.center[
+**E-mail:** <a href="mailto:guilherme.f.castro@ufv.br">guilherme.f.castro@ufv.br</a>
+]
+
+---
+class: center, middle, inverse
+
+# Obrigado!
