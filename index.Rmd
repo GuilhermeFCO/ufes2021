@@ -105,7 +105,7 @@ A transmissão ocorre pelo ar, ou por contato pessoal, através de secreções c
 ]
  
 - .justify[
-Devido ao modo de transmissão vários lugares do mundo decretaram isolamento social visto que até o momento não há medicamento para o combate e enfrentamento da doença.
+Devido ao modo de transmissão vários lugares do mundo decretaram isolamento social.
 ]
   
 **Fonte:** [OMS](https://www.who.int/news-room/q-a-detail/coronavirus-disease-covid-19-how-is-it-transmitted#:~:text=COVID%2D19%20is%20caused%20by,speak%2C%20sing%20or%20breathe%20heavily.)
